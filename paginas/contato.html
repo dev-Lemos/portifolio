@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estiloContato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <div class="navBar">
+            <div>
+                <img class="logotipo" src="../imagens/logotipo.png" alt="logotipo">
+            </div>
+            <div class="linksNavBar">
+                <a class="linksNav" href="../index.html"> HOME </a>
+            </div>
+            <div class="linksNavBar">
+                <a class="linksNav" href="servicos.html">SERVIÇOS</a>
+            </div>
+            <div class="linksNavBar">
+                <a class="linksNav" href="novidades.html">NOVIDADES</a>
+            </div>
+            <div class="linksNavBar">
+                <a class="linksNav" href="sobre.html">SOBRE</a>
+            </div>
+            <div class="linksNavBar">
+                <a class="linkContato" href="">CONTATO</a>
+            </div>
+            <div class="mediaSocial">
+                <div class="bordaMediaSocial">
+                    <div class="linhaMediaSocial">
+                        <a href="https://www.facebook.com/hockevans" target="_blank">
+                            <div class="facebook"></div>
+                        </a>
+                    </div>
+                    <div class="linhaMediaSocial">
+                        <a href="https://www.instagram.com/_leonardo_lemos/" target="_blank">
+                            <div class="instagram"></div>
+                        </a>
+                    </div>
+                    <div class="linhaMediaSocial">
+                        <a href="">
+                            <div class="whatsapp"></div>
+                        </a>
+                    </div>
+                    <div class="linhaMediaSocial">
+                        <a href="https://www.linkedin.com/in/leonardo-lemos-de-oliveira/" target="_blank">
+                            <div class="linkedin"></div>
+                        </a>
+                    </div>
+                    <div class="linhaMediaSocial">
+                        <a href="">
+                            <div class="twitter"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="posicaoContato">
+            <div class="contato">
+                <div>
+                    <h1 class="corH1">
+                        Contato
+                    </h1>
+                </div>
+                    <div class="centralizar">
+                        <form  method="POST">
+                            <div class="inlineLabel">
+                                <label for="NOME">Nome: </label>
+                                <div class="moverInputNOME">
+                                        <input type="text" name="nome" id="NOME">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="SOBRENOME">Sobrenome: </label>
+                                <input type="text" name="sobrenome" id="SOBRENOME">
+                            </div>
+                            <div class="inlineLabel">
+                                <label for="EMAIL">Email:</label>
+                                <div class="moverInputEMAIL">
+                                    <input type="email" name="email" id="EMAIL">
+                                </div>
+                            </div>
+                            <div class="inlineLabel" >
+                                <label for="FONE">Telefone:</label>
+                                <div class="moverInputTELEFONE">
+                                    <input type="tel" name="telefone" id="FONE" placeholder="    (xx) xxxx - xxxx">
+                                </div>
+                            </div>
+                            <div class="labelinLine">
+                                <label for="SELECAO">Motivo do contato:</label>
+                                <div class="moverInputSELECT">
+                                    <select name="motivoContato" id="SELECAO">
+                                        <option value="">SELECIONE</option>
+                                        <option value="criacao">1 - Criação de Sites</option>
+                                        <option value="edicaoimagens">2 - Edição e tratamento de imagens</option>
+                                        <option value="documentacao">3 - Documentação de Software</option>
+                                        <option value="rede">4 - Instalação de Redes</option>
+                                        <option value="outros">5 - Outros motivos</option>
+                                        <!-- <option value="hardware">5 - Manutenção de Hardware</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="espacoMensagem">
+                                <label for="TEXTO">Caso queira, deixe uma mensagem:</label>
+                                <div class="espacoMensagem">
+                                    <textarea name="texto" id="TEXTO" cols="30" rows="10" placeholder="VOCÊ PODE DIGITAR SUA MENSGEM AQUI"></textarea>
+                                </div>
+                            </div>
+                            <div class="centralizarBotao">
+                                <button class="botao" value="submit" > ENVIAR </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

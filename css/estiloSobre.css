@@ -1,0 +1,242 @@
+body{
+    background-color:#003435ff;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    /* font-size: 18; */
+}
+.foto{
+    position: absolute;
+    right: 20em;
+    top: 10em;
+    width: 24rem;
+}
+.navBar{
+    display: block;
+    max-width: 20em;
+    height: auto;
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 2.2em;
+    border: 1px solid black;
+    background: rgb(0,0,0,0.6);
+}
+.logotipo{
+    width: 200px;
+    height: 160px;;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+.linksNavBar{
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+.linksNav:hover{
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    
+}
+.linkSobre{
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.mediaSocial{
+    padding-top: 5em;
+    padding-left: 2em;
+    margin: auto;
+    text-align: center;
+}
+.bordaMediaSocial{
+    background: white;
+    border-radius: 12px;
+    width: 180px;
+    height: auto;
+    padding: 10px;
+}
+.linhaMediaSocial{
+    display: inline-block;
+
+}
+.facebook{
+    display: inline-block;
+    background: url("../imagens/social_media/facebook_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.facebook:hover{
+    display: inline-block;
+    background: url("../imagens/social_media/facebook_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}.facebook:active{
+    display: inline-block;
+    background: url("../imagens/social_media/facebook_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.instagram{
+    display: inline-block;
+    background: url("../imagens/social_media/instagram_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.instagram:hover{
+    display: inline-block;
+    background: url("../imagens/social_media/instagram_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.instagram:active{
+    display: inline-block;
+    background: url("../imagens/social_media/instagram_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.whatsapp{
+    display: inline-block;
+    background: url("../imagens/social_media/whatsapp_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.whatsapp:hover{
+    display: inline-block;
+    background: url("../imagens/social_media/whatsapp_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.whatsapp:active{
+    display: inline-block;
+    background: url("../imagens/social_media/whatsapp_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.linkedin{
+    display: inline-block;
+    background: url("../imagens/social_media/linkedin_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.linkedin{
+    display: inline-block;
+    background: url("../imagens/social_media/linkedin_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.linkedin:hover{
+    display: inline-block;
+    background: url("../imagens/social_media/linkedin_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.linkedin:active{
+    display: inline-block;
+    background: url("../imagens/social_media/linkedin_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    display: inline-block;
+    background: url("../imagens/social_media/twitter_vazio.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.twitter:hover{
+    display: inline-block;
+    background: url("../imagens/social_media/twitter_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.twitter:active{
+    display: inline-block;
+    background: url("../imagens/social_media/twitter_preenchido.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.container{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+.posicaoContainer .container{
+    position: absolute;
+    right: 7em;
+    top: 3em;
+}
+.centralizar .posicaoContainer .container{
+    position: relative;
+    left: 20%;
+}
+p .centralizar .posicaoContainer .container{
+    word-wrap: break-word;
+    display: inline-block;
+}
+.fotoSobre{
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+}
+.naLinha{
+    display: inline-block;
+}
+.corH1{
+    color:darkgreen;
+    text-align: center;
+    padding-top: 15px;
+}
+.centralizar{
+    text-align: center;    
+}
+p{
+    padding-left: 10px;
+}
